@@ -1,0 +1,12 @@
+{
+  "name": "BlockHalf",
+  "version": "1.0",
+  "description": "Block half of all script and style requests to see if a page still works",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
